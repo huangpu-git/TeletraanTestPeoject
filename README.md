@@ -5,7 +5,9 @@
 #### 项目框架
 
 采用前后端分离来完成的此项目
+
 前端采用 vue-cli4 脚手架搭建的VUE前端框架，项目名： TakeHomeVue
+
 后端是用python WEB 框架Tornado + MySQL + Peewee 框架搭建的 ，项目名为：TakeHomeVue
 
 
