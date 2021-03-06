@@ -1,0 +1,85 @@
+[2021-03-06 17:29:39,822] - [logger name :test] - [log.py file line:35] - DEBUG: testing ... 
+[2021-03-06 17:29:39,822] - [logger name :test] - [log.py file line:36] - INFO: testing ... 
+[2021-03-06 17:38:09,899] - [logger name :test] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 17:38:11,189] - [logger name :test] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['邢', '么', '肖', '的', '人却', '只', '能', '傲', '朋', '友爱', '的', '深', '也', '肖之', '甘', '心', '买', '罢及', '正', '我', '捷', '难', '过', '皋', '真', '的']}
+[2021-03-06 17:40:32,235] - [logger name :asyncio] - [selector_events.py file line:59] - DEBUG: Using selector: SelectSelector
+[2021-03-06 17:50:26,862] - [logger name :root] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 17:50:28,142] - [logger name :root] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['邢', '么', '肖', '的', '人却', '只', '能', '傲', '朋', '友爱', '的', '深', '也', '肖之', '甘', '心', '买', '罢及', '正', '我', '捷', '难', '过', '皋', '真', '的']}
+[2021-03-06 17:50:28,144] - [logger name :tornado.access] - [web.py file line:2246] - INFO: 200 POST /upload_img (192.168.101.107) 1283.64ms
+[2021-03-06 17:51:16,748] - [logger name :root] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 17:51:17,965] - [logger name :root] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['邢', '么', '肖', '的', '人却', '只', '能', '傲', '朋', '友爱', '的', '深', '也', '肖之', '甘', '心', '买', '罢及', '正', '我', '捷', '难', '过', '皋', '真', '的']}
+[2021-03-06 17:51:17,965] - [logger name :tornado.access] - [web.py file line:2246] - INFO: 200 POST /upload_img (192.168.101.107) 1219.03ms
+[2021-03-06 17:51:58,269] - [logger name :asyncio] - [selector_events.py file line:59] - DEBUG: Using selector: SelectSelector
+[2021-03-06 18:14:04,055] - [logger name :asyncio] - [selector_events.py file line:59] - DEBUG: Using selector: SelectSelector
+[2021-03-06 18:14:14,683] - [logger name :root] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 18:14:15,957] - [logger name :root] - [model.py file line:30] - ERROR: insert data error: name 'TakeHomeOcr' is not defined
+[2021-03-06 18:14:15,957] - [logger name :root] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['邢', '么', '肖', '的', '人却', '只', '能', '傲', '朋', '友爱', '的', '深', '也', '肖之', '甘', '心', '买', '罢及', '正', '我', '捷', '难', '过', '皋', '真', '的']}
+[2021-03-06 18:14:15,958] - [logger name :tornado.access] - [web.py file line:2246] - INFO: 200 POST /upload_img (192.168.101.107) 1275.13ms
+[2021-03-06 18:15:18,331] - [logger name :asyncio] - [selector_events.py file line:59] - DEBUG: Using selector: SelectSelector
+[2021-03-06 18:15:29,623] - [logger name :root] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 18:15:30,861] - [logger name :peewee] - [peewee.py file line:3125] - DEBUG: ('INSERT INTO `take_home_ocr` (`content`) VALUES (%s)', ["['邢', '么', '肖', '的', '人却', '只', '能', '傲', '朋', '友爱', '的', '深', '也', '肖之', '甘', '心', '买', '罢及', '正', '我', '捷', '难', '过', '皋', '真', '的']"])
+[2021-03-06 18:15:30,870] - [logger name :root] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['邢', '么', '肖', '的', '人却', '只', '能', '傲', '朋', '友爱', '的', '深', '也', '肖之', '甘', '心', '买', '罢及', '正', '我', '捷', '难', '过', '皋', '真', '的']}
+[2021-03-06 18:15:30,871] - [logger name :tornado.access] - [web.py file line:2246] - INFO: 200 POST /upload_img (192.168.101.107) 1248.51ms
+[2021-03-06 18:17:48,047] - [logger name :asyncio] - [selector_events.py file line:59] - DEBUG: Using selector: SelectSelector
+[2021-03-06 18:18:28,043] - [logger name :asyncio] - [selector_events.py file line:59] - DEBUG: Using selector: SelectSelector
+[2021-03-06 18:23:19,279] - [logger name :root] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 18:23:19,297] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing BlpImagePlugin
+[2021-03-06 18:23:19,298] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing BmpImagePlugin
+[2021-03-06 18:23:19,298] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing BufrStubImagePlugin
+[2021-03-06 18:23:19,299] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing CurImagePlugin
+[2021-03-06 18:23:19,301] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing DcxImagePlugin
+[2021-03-06 18:23:19,304] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing DdsImagePlugin
+[2021-03-06 18:23:19,305] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing EpsImagePlugin
+[2021-03-06 18:23:19,325] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing FitsStubImagePlugin
+[2021-03-06 18:23:19,327] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing FliImagePlugin
+[2021-03-06 18:23:19,328] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing FpxImagePlugin
+[2021-03-06 18:23:19,329] - [logger name :PIL.Image] - [Image.py file line:408] - DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
+[2021-03-06 18:23:19,329] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing FtexImagePlugin
+[2021-03-06 18:23:19,330] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing GbrImagePlugin
+[2021-03-06 18:23:19,331] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing GifImagePlugin
+[2021-03-06 18:23:19,331] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing GribStubImagePlugin
+[2021-03-06 18:23:19,332] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing Hdf5StubImagePlugin
+[2021-03-06 18:23:19,334] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing IcnsImagePlugin
+[2021-03-06 18:23:19,339] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing IcoImagePlugin
+[2021-03-06 18:23:19,340] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing ImImagePlugin
+[2021-03-06 18:23:19,341] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing ImtImagePlugin
+[2021-03-06 18:23:19,343] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing IptcImagePlugin
+[2021-03-06 18:23:19,344] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing JpegImagePlugin
+[2021-03-06 18:23:19,344] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing Jpeg2KImagePlugin
+[2021-03-06 18:23:19,344] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing McIdasImagePlugin
+[2021-03-06 18:23:19,345] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing MicImagePlugin
+[2021-03-06 18:23:19,346] - [logger name :PIL.Image] - [Image.py file line:408] - DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
+[2021-03-06 18:23:19,346] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing MpegImagePlugin
+[2021-03-06 18:23:19,348] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing MpoImagePlugin
+[2021-03-06 18:23:19,349] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing MspImagePlugin
+[2021-03-06 18:23:19,350] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PalmImagePlugin
+[2021-03-06 18:23:19,353] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PcdImagePlugin
+[2021-03-06 18:23:19,355] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PcxImagePlugin
+[2021-03-06 18:23:19,355] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PdfImagePlugin
+[2021-03-06 18:23:19,362] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PixarImagePlugin
+[2021-03-06 18:23:19,364] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PngImagePlugin
+[2021-03-06 18:23:19,364] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PpmImagePlugin
+[2021-03-06 18:23:19,364] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing PsdImagePlugin
+[2021-03-06 18:23:19,365] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing SgiImagePlugin
+[2021-03-06 18:23:19,366] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing SpiderImagePlugin
+[2021-03-06 18:23:19,368] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing SunImagePlugin
+[2021-03-06 18:23:19,370] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing TgaImagePlugin
+[2021-03-06 18:23:19,372] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing TiffImagePlugin
+[2021-03-06 18:23:19,372] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing WebPImagePlugin
+[2021-03-06 18:23:19,406] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing WmfImagePlugin
+[2021-03-06 18:23:19,408] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing XbmImagePlugin
+[2021-03-06 18:23:19,409] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing XpmImagePlugin
+[2021-03-06 18:23:19,411] - [logger name :PIL.Image] - [Image.py file line:405] - DEBUG: Importing XVThumbImagePlugin
+[2021-03-06 18:23:20,197] - [logger name :root] - [model.py file line:24] - INFO: start insert data
+[2021-03-06 18:23:20,198] - [logger name :peewee] - [peewee.py file line:3125] - DEBUG: ('INSERT INTO `take_home_ocr` (`content`) VALUES (%s)', ["['PyImageSearch']"])
+[2021-03-06 18:23:20,203] - [logger name :peewee] - [peewee.py file line:3125] - DEBUG: ('INSERT INTO `take_home_ocr` (`content`) VALUES (%s)', ["['PyImageSearch']"])
+[2021-03-06 18:23:20,208] - [logger name :root] - [model.py file line:32] - ERROR: insert data error: object of type 'NoneType' has no len()
+[2021-03-06 18:23:20,208] - [logger name :root] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['PyImageSearch']}
+[2021-03-06 18:23:20,209] - [logger name :tornado.access] - [web.py file line:2246] - INFO: 200 POST /upload_img (192.168.101.107) 931.20ms
+[2021-03-06 18:23:30,198] - [logger name :root] - [manager.py file line:24] - INFO: start upload img file 
+[2021-03-06 18:23:30,930] - [logger name :root] - [model.py file line:24] - INFO: start insert data
+[2021-03-06 18:23:30,931] - [logger name :peewee] - [peewee.py file line:3125] - DEBUG: ('INSERT INTO `take_home_ocr` (`content`) VALUES (%s)', ["['630', '3428']"])
+[2021-03-06 18:23:30,934] - [logger name :peewee] - [peewee.py file line:3125] - DEBUG: ('INSERT INTO `take_home_ocr` (`content`) VALUES (%s)', ["['630', '3428']"])
+[2021-03-06 18:23:30,940] - [logger name :root] - [model.py file line:32] - ERROR: insert data error: object of type 'NoneType' has no len()
+[2021-03-06 18:23:30,940] - [logger name :root] - [manager.py file line:39] - INFO: parse upload img file result: {'content': ['630', '3428']}
+[2021-03-06 18:23:30,941] - [logger name :tornado.access] - [web.py file line:2246] - INFO: 200 POST /upload_img (192.168.101.107) 744.07ms
